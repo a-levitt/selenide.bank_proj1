@@ -1,7 +1,6 @@
 package pages.base;
 
 import com.codeborne.selenide.Condition;
-import org.junit.jupiter.api.Assertions;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.*;
@@ -25,10 +24,12 @@ public class BasePage {
         MobileAppQR.shouldBe(Condition.visible);
     }
 
-    public void isRestorePasswordPopupVisible() {
+    public void isRestorePasswordPopupVisible(String generationTitle) {
         passwordForm.shouldBe(Condition.visible);
         String title = popUpTitleText.getText();
-        Assertions.assertEquals("One Time Password (OTP) Generator", title);
+
+        checkMessage(generationTitle);
+        //Assertions.assertEquals("One Time Password (OTP) Generator", title);
     }
 
     public void checkMessage(String message) {
