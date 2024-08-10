@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116bd3a6-5a81-4631-a582-6569a66ecc15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/10d65dfc-a41a-4330-8d3e-d5860f8d9e8b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/79e43fd2-3475-4057-aa6b-fab424132434-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ead36fdb-5eeb-4df1-be55-16e132d10115-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fc828663-fc63-495f-885f-657b4e0a7256-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenide.bankProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/resources/junit-patform.properies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/insurance/positive/InsurancePlansProposalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/insurance/positive/InsurancePlansProposalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenide.bankProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenide.bankProject1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
