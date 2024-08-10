@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116bd3a6-5a81-4631-a582-6569a66ecc15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/10d65dfc-a41a-4330-8d3e-d5860f8d9e8b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/79e43fd2-3475-4057-aa6b-fab424132434-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ead36fdb-5eeb-4df1-be55-16e132d10115-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fc828663-fc63-495f-885f-657b4e0a7256-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/gateway/negative/IbuGatewayFormNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gateway/negative/IbuGatewayFormNegativeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +47,14 @@
     "JUnit.DigitalChannelsTest.executor": "Run",
     "JUnit.IbuGatewayFormNegativeTest.executor": "Run",
     "JUnit.IbuGatewayFormTest.executor": "Run",
+    "JUnit.InsurancePlansProposalTest.executor": "Run",
     "JUnit.SelenideBaseTest.executor": "Run",
     "JUnit.SelenideBaseTest.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/Projects/selenium.bankProject1",
+    "last_opened_file_path": "D:/Java/Projects/selenide.bank_proj1",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -63,7 +69,7 @@
       <recent name="D:\Java\Projects\selenide.bank_proj1\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DigitalChannelsTest">
+  <component name="RunManager" selected="JUnit.IbuGatewayFormNegativeTest">
     <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide.bankProject1" />
       <extension name="coverage">
@@ -124,18 +130,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideBaseTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsurancePlansProposalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide.bankProject1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.insurance.positive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SelenideBaseTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tests.insurance.positive" />
+      <option name="MAIN_CLASS_NAME" value="tests.insurance.positive.InsurancePlansProposalTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DigitalChannelsTest" />
         <item itemvalue="JUnit.IbuGatewayFormNegativeTest" />
         <item itemvalue="JUnit.IbuGatewayFormTest" />
+        <item itemvalue="JUnit.InsurancePlansProposalTest" />
+        <item itemvalue="JUnit.DigitalChannelsTest" />
         <item itemvalue="JUnit.BaseTest" />
-        <item itemvalue="JUnit.SelenideBaseTest.test" />
       </list>
     </recent_temporary>
   </component>

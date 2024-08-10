@@ -6,6 +6,7 @@ import constants.Constant;
 import constants.Secure;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
@@ -19,6 +20,7 @@ import tests.base.BaseTest;
 @Execution(ExecutionMode.CONCURRENT)
 public class IbuGatewayFormNegativeTest extends BaseTest {
 
+    @Test
     public void checkRequiredFields() {
         basePage.goToUrl(Constant.Urls.IBU_GATEWAY_URL);
 

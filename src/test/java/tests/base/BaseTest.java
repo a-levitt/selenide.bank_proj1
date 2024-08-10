@@ -1,5 +1,6 @@
 package tests.base;
 
+import com.codeborne.selenide.SelenideElement;
 import common.Listener;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -16,6 +17,7 @@ import java.io.File;
 import java.time.LocalTime;
 import java.util.Objects;
 
+import static com.codeborne.selenide.Selenide.$x;
 import static common.Config.*;
 
 @ExtendWith(Listener.class)
