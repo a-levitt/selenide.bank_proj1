@@ -13,8 +13,6 @@ public class IbuGatewayFormPage extends BasePage {
     private final SelenideElement EnterUsernameField = $x("//input[@id='username']");
     private final SelenideElement EnterPasswordField = $x("//input[@id='password']");
     private final SelenideElement forgotPasswordButton = $x("//button[@class='mat-button ng-star-inserted']");
-    //private final SelenideElement nameFieldRequiredAlert = $x("//mat-error[@id='mat-error-0']");
-    //private final SelenideElement passwordFieldRequiredAlert = $x("//mat-error[@id='mat-error-1']");
 
     public IbuGatewayFormPage enterName(String name) {
         EnterUsernameField.shouldBe(Condition.visible).sendKeys(name);

@@ -12,17 +12,17 @@ public class Config {
     /**
      *  Clear browser cookies and local storage (after each test)
      * */
-    public static final Boolean CLEAR_COOKIES = false;
+    public static final Boolean CLEAR_COOKIES = true;
 
     /**
      * Keep browser open after all tests/scenario
      * */
-    public static final Boolean HOLD_BROWSER_OPEN = false;
+    public static final Boolean HOLD_BROWSER_OPEN = true;
 
     /**
      * Clear old screenshots before starting the build
      * */
-    public static final Boolean CLEAR_REPORTS = false;
+    public static final Boolean CLEAR_REPORTS = true;
 
     static {
         Configuration.holdBrowserOpen = HOLD_BROWSER_OPEN;

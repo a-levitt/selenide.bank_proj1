@@ -16,7 +16,7 @@ public class CommonActions {
                 Selenide.clearBrowserLocalStorage();
                 Selenide.executeJavaScript("window.SessionStorage.clear()");
             } catch (Exception e) {
-                LOGGER.error("Fail to clearCookiesAndStorage: " + e.getMessage());
+                LOGGER.error("Fail to clearCookiesAndStorage()", e.getMessage());
             }
 
         }

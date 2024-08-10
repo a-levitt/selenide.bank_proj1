@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116bd3a6-5a81-4631-a582-6569a66ecc15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/digital/DigitalPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/gateway/IbuGatewayFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/gateway/IbuGatewayFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/gateway/IbuGatewayPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/insurance/InsurancePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenideBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/digital/positive/DigitalChannelsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/digital/positive/DigitalChannelsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/gateway/negative/IbuGatewayFormNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gateway/negative/IbuGatewayFormNegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/gateway/positive/IbuGatewayFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gateway/positive/IbuGatewayFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +66,22 @@
       <recent name="D:\Java\Projects\selenide.bank_proj1\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SelenideBaseTest.test">
+  <component name="RunManager" selected="JUnit.DigitalChannelsTest">
+    <configuration name="DigitalChannelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium.bankProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.digital.positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.digital.positive" />
+      <option name="MAIN_CLASS_NAME" value="tests.digital.positive.DigitalChannelsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelenideBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium.bankProject1" />
       <extension name="coverage">
@@ -106,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DigitalChannelsTest" />
         <item itemvalue="JUnit.SelenideBaseTest.test" />
         <item itemvalue="JUnit.SelenideBaseTest" />
       </list>
