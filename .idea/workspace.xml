@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116bd3a6-5a81-4631-a582-6569a66ecc15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/10d65dfc-a41a-4330-8d3e-d5860f8d9e8b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/79e43fd2-3475-4057-aa6b-fab424132434-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ead36fdb-5eeb-4df1-be55-16e132d10115-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fc828663-fc63-495f-885f-657b4e0a7256-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenide.bankProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/resources/junit-patform.properies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/digital/DigitalPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/gateway/IbuGatewayFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/gateway/IbuGatewayFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/gateway/IbuGatewayPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/insurance/InsurancePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenideBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/digital/positive/DigitalChannelsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/digital/positive/DigitalChannelsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/gateway/negative/IbuGatewayFormNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gateway/negative/IbuGatewayFormNegativeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/gateway/positive/IbuGatewayFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gateway/positive/IbuGatewayFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/insurance/positive/InsurancePlansProposalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/insurance/positive/InsurancePlansProposalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +50,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BaseTest.executor": "Run",
+    "JUnit.DigitalChannelsTest.executor": "Run",
+    "JUnit.IbuGatewayFormNegativeTest.executor": "Run",
+    "JUnit.IbuGatewayFormTest.executor": "Run",
     "JUnit.SelenideBaseTest.executor": "Run",
     "JUnit.SelenideBaseTest.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/Projects/selenium.bankProject1",
+    "last_opened_file_path": "D:/Java/Projects/selenide.bank_proj1",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -62,13 +68,31 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\Projects\selenide.bank_proj1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\Projects\selenide.bank_proj1\.idea" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DigitalChannelsTest">
+    <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide.bankProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.base" />
+      <option name="MAIN_CLASS_NAME" value="tests.base.BaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DigitalChannelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium.bankProject1" />
+      <module name="selenide.bankProject1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.digital.positive.*" />
@@ -82,23 +106,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium.bankProject1" />
+    <configuration name="IbuGatewayFormNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide.bankProject1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.gateway.negative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SelenideBaseTest" />
+      <option name="PACKAGE_NAME" value="tests.gateway.negative" />
+      <option name="MAIN_CLASS_NAME" value="tests.gateway.negative.IbuGatewayFormNegativeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IbuGatewayFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide.bankProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.gateway.positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.gateway.positive" />
+      <option name="MAIN_CLASS_NAME" value="tests.gateway.positive.IbuGatewayFormTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SelenideBaseTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium.bankProject1" />
+      <module name="selenide.bankProject1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -129,8 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DigitalChannelsTest" />
+        <item itemvalue="JUnit.IbuGatewayFormNegativeTest" />
+        <item itemvalue="JUnit.IbuGatewayFormTest" />
+        <item itemvalue="JUnit.BaseTest" />
         <item itemvalue="JUnit.SelenideBaseTest.test" />
-        <item itemvalue="JUnit.SelenideBaseTest" />
       </list>
     </recent_temporary>
   </component>
